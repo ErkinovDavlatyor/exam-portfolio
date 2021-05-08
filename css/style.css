@@ -3,17 +3,18 @@
     margin: 0;
 }
 .body{
-    width: 1300px;
-    height: 3910px;
-    Top:  -513px; 
-    Left: -720px;
+    width: 0;
+    height: 0;
+   
 }
 .container-wrap{
     display: flex;
     align-items: center;
     width: 1400px;
     height: 56px;
-    background-color: rgb(196, 228, 156);
+     /* Top:  -513px;  */
+    /* Left: -720px; */
+    background-color: rgb(230, 233, 227);
     position:fixed;
 }
 .pix-logo{
@@ -85,3 +86,30 @@
 }
 
 /* --------------HEADER END------------------------ */
+
+/* ------------------YOUTUBE START---------------------- */
+
+  .you-tube{ 
+      margin: 0;
+      width: 1400px;
+      height: 500px;
+      background-color:rgb(244, 250, 244);
+  }
+  .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .container h1{
+      align-items:start;
+      text-align: start;
+    width: 40px;
+    font-family: 'Open Sans'sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 130%;
+    align-self: flex-start;
+    flex-grow: 2;
+    margin: 120px 100   px 10px 100px;    
+  }
