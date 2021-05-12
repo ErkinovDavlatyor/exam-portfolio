@@ -7,51 +7,54 @@
     <title>exam portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css`">
-    <link rel="stylesheet" href="fonts.css/">
+    <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
-    <!-- --------START HEADER------ -->
-    <header>
-        <div class="container-wrap">
-        <img class="pix-logo" src="/img/pixer-logo.svg" alt="pixer-logo">
+     <header class="header">
+        <div class="container wrapp">
+        <img class="pix-logo" src="/img/pixer-logo.svg" alt="pixer-logo" width="58" height="20">
         <nav class="nav">
         <ul class="menu">
-            <li class="menu-items "><a class="menu-link" href="#">Bosh Sahifa</a></li>
-            <li class="menu-items sub-menu-link-wrap"><a class="menu-link" href="#">Xizmatlar</a>
-                <ul class="sub-menu">
-                <li class="sub-menu-item"><a class="sub-menu-link" href="#">Vebsayt</a></li>
-                <li class="sub-menu-item"><a class="sub-menu-link" href="#">Telegram Bot</a></li>
-                <li class="sub-menu-item"><a class="sub-menu-link" href="#">SMM</a></li>
-                <li class="sub-menu-item"><a class="sub-menu-link" href="#">Grafik Dizayn</a></li>
-                <li class="sub-menu-item"><a class="sub-menu-link" href="#">CRM tizim</a></li>
-            </ul></li>
-            <li class="menu-items"><a class="menu-link" href="#">Portfolio</a></li>
-            <li class="menu-items"><a class="menu-link" href="#">Jamoa</a></li>
-            <li class="menu-items"><a class="menu-link" href="#">Blog</a></li>
-            <li class="menu-items"><a class="menu-link" href="#">Kontaklar</a></li>
+            <li class="menu-items"><a class="menu-link" href="#Bosh sahifa">Bosh Sahifa</a></li>
+            <li class="menu-items"><a class="menu-link" href="#Xizmatlar">Xizmatlar</a>
+               <div class="dropdown">
+                <ul class="dropdown-menu">
+                <li class="dropdown-menu-item"><a href="#Vebsayt">Vebsayt</a></li>
+                <li class="dropdown-menu-item"><a href="#Telegram_bot">Telegram Bot</a></li>
+                <li class="dropdown-menu-item"><a href="#SMM">SMM</a></li>
+                <li class="dropdown-menu-item"><a href="#Grafik_dizayn">Grafik Dizayn</a></li>
+                <li class="dropdown-menu-item"><a href="#Crm_tizim"> CRM tizim</a></li>
+                </ul> 
+            </div>
+            </li>
+            <li class="menu-items"><a class="menu-link" href="#Portfolio">Portfolio</a></li>
+            <li class="menu-items"><a class="menu-link" href="#Jamoa">Jamoa</a></li>
+            <li class="menu-items"><a class="menu-link" href="#Blog">Blog</a></li>
+            <li class="menu-items"><a class="menu-link" href="#Kontaklar">Kontaklar</a></li>
         </ul>
-        </nav>
-        <button class="btn-nomer">
-            <a href="#" >+998909213711</a>
-        </button>
+        <li class="header-num"><a class="btn-number" href="tel:+998909213711" >+998 90 921 37 11</a></li>
         </div>
-    </header>
-
-
-    <!-- -------HEADER END----------- -->
+       </nav>
+     </header>
+    <!---------HEADER END------------->
       
-    <!-- ------------YOUTUBE START------------ -->
-        <main>
-       <section class="you-tube">
-           <div class="container">
-            <h1>Biznesingizni keyingi bosqichga<br> olib chiqing</h1>
-          <p> Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
-          <a href="#">Xizmatlar bilan tanishish</a>
-            <img class="youtube-img" src="/img/youtube.png" alt="youtube">
-            <img src="/img/youtube-play-button.png" alt="play-button">
+    <!--------------YOUTUBE START-------------->
+    <section id="portfolio">
+        <div class="container promo-wrap-main">
+            <div class="promo_wrapper">
+                <h1 class="promo-h">Biznesingizni keyingi bosqichga<br> olib chiqing</h1>
+                <p class="promo-p">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+                <a class="btn2" href="#Xizmatlar" >Xizmatlar bilan tanishish </a>
+            </div>
+            <div class="img_youtube_embed">
+                <img src="./img/youtube.png" alt="youtube page" width="458" height="258" class="youtube_page">
+                <img src="./img/youtube-play-button.png" alt="youtube-play-button" class="youtube_btn">
+            </div>
         </div>
-       </main>
-       </section>
+    </section>
+
+         <!-----------------YOUTUBE END------------------>
+
 
 
 
